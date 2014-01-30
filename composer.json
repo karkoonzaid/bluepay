@@ -1,0 +1,23 @@
+{
+    "name": "core3-net/bluepay",
+    "description": "",
+    "authors": [
+        {
+            "name": "Chris Horne",
+            "email": "chorne@core3networks.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Core3Net\\Bluepay\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
