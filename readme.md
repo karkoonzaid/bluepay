@@ -2,7 +2,7 @@
 
 ## Step 1: 
     Add to composer.json
-    "core3net/bluepay" : "dev-master"
+    "core3-net/bluepay" : "dev-master"
 ## Step 2: 
     Add Provider and Facades
     Service Provider: 'Core3Net\Bluepay\BluepayServiceProvider'
