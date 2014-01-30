@@ -1,4 +1,3 @@
-
 # Bluepay Package for Laravel 4.1.x
 
 ## Step 1: 
@@ -9,9 +8,9 @@
     Service Provider: 'Core3Net\Bluepay\BluepayServiceProvider'
     Facade: 'Bluepay'           => 'Core3Net\Bluepay\Facades\Bluepay'
 ## Step 3: Integrate your Bluepay credentials
-  Bluepay::$ACCOUNT_ID = "My BluePay Account ID";
-  Bluepay::$ACCOUNT_USER_ID = "My Bluepay User ID";
-  Bluepay::$SECRET_KEY = "My bluepay Secret key";
+    Bluepay::$ACCOUNT_ID = "My BluePay Account ID";
+    Bluepay::$ACCOUNT_USER_ID = "My Bluepay User ID";
+    Bluepay::$SECRET_KEY = "My bluepay Secret key";
 
 ## Step 4: Prepare a transaction
 
