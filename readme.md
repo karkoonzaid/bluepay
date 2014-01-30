@@ -52,7 +52,7 @@
     }                   
     catch (Exception $e)
     {
-    print("Checking account transaction failed with message: ".$e->getMessage());
+        print("Checking account transaction failed with message: ".$e->getMessage());
     }
 ## Step 5: Rebill with Old Transaction ID
 
