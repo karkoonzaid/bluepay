@@ -50,10 +50,10 @@
     {
       $result = Bluepay::init()->setCustomer($customer)->isSale()->setAmount(124.00)->setACH($routing, $account, $type)->memo("$124 charge to your checking account")->create();
     }                   
-   catch (Exception $e)
-   {
-      print("Checking account transaction failed with message: ".$e->getMessage());
-   }
+    catch (Exception $e)
+    {
+    print("Checking account transaction failed with message: ".$e->getMessage());
+    }
 ## Step 5: Rebill with Old Transaction ID
 
 Use same steps as before except for setCustomer($transactionID) instead of an array of customer data.
